@@ -1,0 +1,126 @@
+:root {
+  --button-width: 75px;
+  --button-height: 75px;
+  --footer-bottom: 20px;
+  --button-margin: 0 15px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+
+  /* 设置背景图片 */
+  background-image: url('img2.jpg'); /* 替换为你的图片名称 */
+  background-size: 100% 100%; /* 背景拉伸以覆盖整个屏幕 */
+  background-position: center; /* 背景居中显示 */
+  background-repeat: no-repeat; /* 防止背景重复 */
+  height: 100vh; /* 确保背景高度为屏幕高度 */
+  overflow: hidden; /* 避免滚动条 */
+}
+
+
+header {
+  background: transparent; /* 背景透明 */
+  color: white; /* 标题文字为白色 */
+  font-size: 20px; /* 标题字体大小 */
+  font-weight: bold; /* 标题加粗 */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
+  padding: 10px 0;
+  width: 90%; /* 与卡片宽度一致 */
+  margin: 0 auto; /* 居中标题 */
+  position: relative; /* 使用相对定位调整位置 */
+  top: 20px; /* 将标题向下移动 10px，根据需求调整数值 */
+}
+
+
+
+/* 按钮悬停时的背景颜色 */
+#controls button:hover {
+  background-color: #e57373; /* 浅红色悬停效果 */
+}
+
+
+#flashcard {
+  margin: 20px auto; /* 居中对齐 */
+  padding: 20px; /* 内边距 */
+  background: white; /* 背景颜色为白色 */
+  border-radius: 10px; /* 圆角边框 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+  max-width: 300px; /* 缩小最大宽度 */
+  width: 90%; /* 确保在小屏幕设备上适配 */
+}
+
+
+#controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#stats {
+  margin-top: 5px; /* 减少顶部间距，让进度条向上移动 */
+  font-size: 18px; /* 保持字体大小一致 */
+  color: white; /* 白色文字颜色 */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* 增加文字阴影效果 */
+  position: relative; /* 如果需要更精准的调整，可以用绝对定位 */
+  top: -10px; /* 进一步向上微调 */
+}
+
+#word {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* 主标题颜色 */
+}
+
+#meaning {
+  font-size: 18px;
+  color: #555;
+  margin-top: 5px;
+}
+
+#meaning small {
+  font-size: 14px;
+  color: #777; /* 词性颜色 */
+}
+
+footer {
+  position: absolute;
+  bottom: var(--footer-bottom);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: var(--button-margin);
+}
+
+footer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+footer img {
+  width: var(--button-width);
+  height: var(--button-height);
+}
+

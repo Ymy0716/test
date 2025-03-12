@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>意大利语单词记忆</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Minnie的小词库</h1>
+    <div id="stats">记住的单词：0/0 (0%)</div>
+  </header>
+  <main>
+    <div id="flashcard">
+      <h2 id="word">加载中...</h2>
+      <p id="meaning"></p>
+    </div>
+    <div id="controls">
+      <button onclick="updateResponse('easy')">记住了</button>
+      <button onclick="updateResponse('medium')">有点难</button>
+      <button onclick="updateResponse('hard')">没记住</button>
+    </div>
+  </main>
+  <footer>
+    <button onclick="window.location.href='index.html'">
+      <img src="Button.jpg" alt="当前页面">
+      <span>生词</span>
+    </button>
+    <button onclick="window.location.href='review.html'">
+      <img src="Button.jpg" alt="新页面">
+      <span>复习</span>
+    </button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

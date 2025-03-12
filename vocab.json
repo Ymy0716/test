@@ -1,0 +1,2037 @@
+[
+    {
+        "italian": "piano",
+        "chinese": "钢琴，楼层",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "telefono",
+        "chinese": "电话",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "messaggio",
+        "chinese": "信息",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "tempo",
+        "chinese": "时间",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "treno",
+        "chinese": "火车",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "giornale",
+        "chinese": "报纸，报社",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "mare",
+        "chinese": "大海",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "giorno",
+        "chinese": "白天，天",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "esercizio",
+        "chinese": "练习",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "parola",
+        "chinese": "单词",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "valigia",
+        "chinese": "行李箱",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "rivista",
+        "chinese": "杂志",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "lezione",
+        "chinese": "课程",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "email",
+        "chinese": "邮件",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "compito",
+        "chinese": "作业",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "ufficio",
+        "chinese": "办公室",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "uomo",
+        "chinese": "男人-uomini",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "corso",
+        "chinese": "课程",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "inverno",
+        "chinese": "冬天",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "luce",
+        "chinese": "灯",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "finestra",
+        "chinese": "窗户",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "periferia",
+        "chinese": "郊区",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "stanza",
+        "chinese": "房间",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "matita",
+        "chinese": "铅笔",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "domenica",
+        "chinese": "周日",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "donna",
+        "chinese": "女人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "volta",
+        "chinese": "次",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "estate",
+        "chinese": "夏天",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "vacanza",
+        "chinese": "假期",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "professore",
+        "chinese": "男教授",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "esame",
+        "chinese": "考试",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "orologio",
+        "chinese": "手表",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "insegnante",
+        "chinese": "老师（m./f.）",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "lavoro",
+        "chinese": "工作",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "minuto",
+        "chinese": "分钟",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "inizio",
+        "chinese": "开始",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "pomeriggio",
+        "chinese": "下午",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "ristorante",
+        "chinese": "餐厅",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "sabato",
+        "chinese": "周六",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "professoressa",
+        "chinese": "女教授",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "collega",
+        "chinese": "同事（m./f.）",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "mattina",
+        "chinese": "早上",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "sera",
+        "chinese": "晚上",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "notte",
+        "chinese": "深夜",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "classe",
+        "chinese": "教室",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "appuntamento",
+        "chinese": "约会",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "attore",
+        "chinese": "演员",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "tempo",
+        "chinese": "时间，天气",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "domanda",
+        "chinese": "问题",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "attrice",
+        "chinese": "女演员",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "storia",
+        "chinese": "故事，历史",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "gonna",
+        "chinese": "短裙",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "fermata",
+        "chinese": "站点",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "via",
+        "chinese": "路",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "volta",
+        "chinese": "次数",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "risposta",
+        "chinese": "回答",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "famoso",
+        "chinese": "有名的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "difficile",
+        "chinese": "困难的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "facile",
+        "chinese": "容易的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "interessante",
+        "chinese": "有趣的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "noioso",
+        "chinese": "无聊的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "intelligente",
+        "chinese": "聪明的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "stupido",
+        "chinese": "愚蠢的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "importante",
+        "chinese": "重要的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "grande",
+        "chinese": "大的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "piccolo",
+        "chinese": "小的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "vicino",
+        "chinese": "附近的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "giovane",
+        "chinese": "年轻的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "anziano",
+        "chinese": "年老的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "bello",
+        "chinese": "漂亮的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "brutto",
+        "chinese": "丑陋的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "alto",
+        "chinese": "高的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "basso",
+        "chinese": "矮的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "corto",
+        "chinese": "短的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "lungo",
+        "chinese": "长的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "simpatico",
+        "chinese": "讨人喜欢的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "antipatico",
+        "chinese": "不讨人喜欢的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "gentile",
+        "chinese": "礼貌的，温柔的，绅士的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "cortese",
+        "chinese": "礼貌的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "scortese",
+        "chinese": "不礼貌的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "magro",
+        "chinese": "瘦的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "grasso",
+        "chinese": "胖的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "chiaro",
+        "chinese": "浅色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "scuro",
+        "chinese": "深色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "dolce",
+        "chinese": "甜美的，温柔的，甜的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "buona",
+        "chinese": "好的（人），好吃的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "cattivo",
+        "chinese": "坏的（人）",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "biondo",
+        "chinese": "金色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "giallo",
+        "chinese": "黄色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "arancione",
+        "chinese": "橙色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "rosso",
+        "chinese": "红色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "nero",
+        "chinese": "黑色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "grigio",
+        "chinese": "灰色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "bianco",
+        "chinese": "白色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "verde",
+        "chinese": "绿色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "bruno",
+        "chinese": "褐色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "marrone",
+        "chinese": "棕色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "castano",
+        "chinese": "栗色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "viola",
+        "chinese": "紫色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "blu",
+        "chinese": "蓝色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "rosa",
+        "chinese": "粉色",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Acqua",
+        "chinese": "水",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Aereo",
+        "chinese": "飞机",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Aeroporto",
+        "chinese": "飞机场",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Affitto",
+        "chinese": "租金",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Agosto",
+        "chinese": "八月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Albero",
+        "chinese": "树",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Amica",
+        "chinese": "女性朋友",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Amico",
+        "chinese": "男性朋友",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Anno",
+        "chinese": "年，岁",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Aprile",
+        "chinese": "四月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Appartamento",
+        "chinese": "公寓",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Appuntamento",
+        "chinese": "约会",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Armadio",
+        "chinese": "衣柜",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ascensore",
+        "chinese": "电梯",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Attività",
+        "chinese": "活动",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Autobus",
+        "chinese": "公交车",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Autunno",
+        "chinese": "秋天",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Bagaglio",
+        "chinese": "行李",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Banca",
+        "chinese": "银行",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Bagno",
+        "chinese": "浴室",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Balcone",
+        "chinese": "阳台",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Bar",
+        "chinese": "咖啡店",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Biblioteca",
+        "chinese": "图书馆",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Bici, bicicletta",
+        "chinese": "自行车",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Biglietto",
+        "chinese": "票",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Birra",
+        "chinese": "啤酒",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Borsa",
+        "chinese": "包",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Caffè",
+        "chinese": "咖啡",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Camera da letto",
+        "chinese": "卧室",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cameriere",
+        "chinese": "服务员",
+        "partOfSpeech": "m.) / cameriera (f."
+    },
+    {
+        "italian": "Campagna",
+        "chinese": "乡村",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Capelli",
+        "chinese": "头发",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Capodanno",
+        "chinese": "元旦",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Cappello",
+        "chinese": "帽子",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Cappuccino",
+        "chinese": "卡布奇诺",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Carne",
+        "chinese": "肉",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Casa",
+        "chinese": "家，房子",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cellulare",
+        "chinese": "手机",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Cena",
+        "chinese": "晚餐",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Centro",
+        "chinese": "中心",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Chiave",
+        "chinese": "钥匙",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Chiesa",
+        "chinese": "教堂",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Chitarra",
+        "chinese": "吉他",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cina",
+        "chinese": "中国",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cinema",
+        "chinese": "电影院",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Città",
+        "chinese": "城市",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cliente",
+        "chinese": "顾客",
+        "partOfSpeech": "m./f."
+    },
+    {
+        "italian": "Classe",
+        "chinese": "班，教室",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cognome",
+        "chinese": "姓",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Colazione",
+        "chinese": "早饭",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Collega",
+        "chinese": "同事",
+        "partOfSpeech": "m/f."
+    },
+    {
+        "italian": "Compito",
+        "chinese": "作业",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Compleanno",
+        "chinese": "生日",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Computer",
+        "chinese": "电脑",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Concerto",
+        "chinese": "音乐会，演唱会",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Cornetto",
+        "chinese": "牛角面包",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Corso",
+        "chinese": "课程",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Cucina",
+        "chinese": "厨房",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Cuscino",
+        "chinese": "枕头",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Dicembre",
+        "chinese": "十二月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Differenza",
+        "chinese": "区别",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Divano",
+        "chinese": "沙发",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Domenica",
+        "chinese": "周日",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Donna",
+        "chinese": "女人",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Dottore",
+        "chinese": "医生",
+        "partOfSpeech": "m.) / dottoressa (f."
+    },
+    {
+        "italian": "E-mail",
+        "chinese": "电子邮件",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Esame",
+        "chinese": "考试",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Estate",
+        "chinese": "夏天",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Età",
+        "chinese": "年龄",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Euro",
+        "chinese": "欧元",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Famiglia",
+        "chinese": "家庭",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Farmacia",
+        "chinese": "药店",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Farmaco",
+        "chinese": "药",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Febbraio",
+        "chinese": "二月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Film",
+        "chinese": "电影",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Finestra",
+        "chinese": "窗",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Fine settimana",
+        "chinese": "周末",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Fiore",
+        "chinese": "花",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Formaggio",
+        "chinese": "奶酪",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Foto, fotografia",
+        "chinese": "照片",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Frase",
+        "chinese": "句子",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Fratello",
+        "chinese": "兄弟",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Frigo, frigorifero",
+        "chinese": "冰箱",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Gatto",
+        "chinese": "猫",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Gelato",
+        "chinese": "冰激凌",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Gennaio",
+        "chinese": "一月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Giardino",
+        "chinese": "花园",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Giorno",
+        "chinese": "天，白天",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Giovedì",
+        "chinese": "周四",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Giugno",
+        "chinese": "六月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Idea",
+        "chinese": "主意，想法",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Insalata",
+        "chinese": "沙拉",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Insegnante",
+        "chinese": "老师",
+        "partOfSpeech": "m./f."
+    },
+    {
+        "italian": "Interesse",
+        "chinese": "兴趣",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Inverno",
+        "chinese": "冬天",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Isola",
+        "chinese": "岛",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Italia",
+        "chinese": "意大利",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Latte",
+        "chinese": "牛奶",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Lavoro",
+        "chinese": "工作",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Letto",
+        "chinese": "床",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Lezione",
+        "chinese": "课",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Libreria",
+        "chinese": "书店，书架",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Libro",
+        "chinese": "书",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Lingua",
+        "chinese": "语言",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Luce",
+        "chinese": "灯",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Luglio",
+        "chinese": "七月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Lunedì",
+        "chinese": "周一",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Macchina",
+        "chinese": "小汽车",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Mamma",
+        "chinese": "妈妈",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Maggio",
+        "chinese": "五月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Mare",
+        "chinese": "大海",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Martedì",
+        "chinese": "周二",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Marzo:",
+        "chinese": "三月",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Mattina",
+        "chinese": "早上，上午",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Medico",
+        "chinese": "医生",
+        "partOfSpeech": "m"
+    },
+    {
+        "italian": "Menù",
+        "chinese": "菜单",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Mercoledì",
+        "chinese": "周三",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Mese",
+        "chinese": "月份",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Metro, metropolitana",
+        "chinese": "地铁",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Minuto",
+        "chinese": "分钟",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Montagna",
+        "chinese": "山",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Monumento",
+        "chinese": "古迹",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Mostra",
+        "chinese": "展览",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Moto",
+        "chinese": "摩托车",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Museo",
+        "chinese": "博物馆",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Musica",
+        "chinese": "音乐",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Natale",
+        "chinese": "圣诞节",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Nazionalità",
+        "chinese": "国籍",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Negozio",
+        "chinese": "商店",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Neve",
+        "chinese": "雪",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Nome",
+        "chinese": "名字",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Nonna",
+        "chinese": "奶奶，外婆",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Nonno",
+        "chinese": "爷爷，外公",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Notte",
+        "chinese": "夜晚",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Novembre",
+        "chinese": "十一月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Numero",
+        "chinese": "数字，号码",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Nuvola:",
+        "chinese": "云",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Occhiali",
+        "chinese": "眼镜",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Occhio",
+        "chinese": "眼睛",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ora",
+        "chinese": "小时，点",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Ospedale",
+        "chinese": "医院",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ottobre",
+        "chinese": "十月",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Paese",
+        "chinese": "国家，小镇",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Palestra",
+        "chinese": "健身房",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Panino",
+        "chinese": "帕尼尼",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Papà",
+        "chinese": "爸爸",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Parco",
+        "chinese": "公园",
+        "partOfSpeech": "m"
+    },
+    {
+        "italian": "Parete",
+        "chinese": "墙",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Pasqua",
+        "chinese": "复活节",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Periferia",
+        "chinese": "郊区",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Persona",
+        "chinese": "人",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Pesce",
+        "chinese": "鱼",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Piano",
+        "chinese": "层",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Piano, pianoforte",
+        "chinese": "钢琴",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Pianta",
+        "chinese": "植物",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Piazza",
+        "chinese": "广场",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Pioggia",
+        "chinese": "雨",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Piscina",
+        "chinese": "游泳池",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Poltrona",
+        "chinese": "单人沙发",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Pomeriggio",
+        "chinese": "下午",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Pomodoro",
+        "chinese": "西红柿",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Pranzo",
+        "chinese": "午饭",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Primavera",
+        "chinese": "春天",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Problema",
+        "chinese": "问题·",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Professore",
+        "chinese": "老师",
+        "partOfSpeech": "m.) / professoressa (f."
+    },
+    {
+        "italian": "Prosciutto",
+        "chinese": "火腿",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Quadro",
+        "chinese": "图画，绘画",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ragazzo",
+        "chinese": "男生",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ragazza",
+        "chinese": "女生",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Regalo",
+        "chinese": "礼物",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ristorante",
+        "chinese": "饭店",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Rivista",
+        "chinese": "杂志",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Sabato",
+        "chinese": "周六",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Sedia",
+        "chinese": "椅子",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Settimana",
+        "chinese": "星期",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Sera",
+        "chinese": "晚上",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Signore",
+        "chinese": "先生",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Signora",
+        "chinese": "女士",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Signorina",
+        "chinese": "小姐",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Soggiorno",
+        "chinese": "客厅",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Sole",
+        "chinese": "太阳",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Sorella",
+        "chinese": "姐妹",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Succo di frutta",
+        "chinese": "果汁",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Sport",
+        "chinese": "运动",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Stanza",
+        "chinese": "房间",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Strada",
+        "chinese": "街道",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Stazione",
+        "chinese": "车站",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Strumento",
+        "chinese": "乐器",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Studente",
+        "chinese": "学生",
+        "partOfSpeech": "m.) / studentessa (f."
+    },
+    {
+        "italian": "Tappeto",
+        "chinese": "地毯",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Tavolo",
+        "chinese": "桌子",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Teatro",
+        "chinese": "剧院",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Televisore",
+        "chinese": "电视",
+        "partOfSpeech": "m.) / Televisione (f.) / TV (f."
+    },
+    {
+        "italian": "Temperatura",
+        "chinese": "温度",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Tempo",
+        "chinese": "时间，天气",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Tonno",
+        "chinese": "金枪鱼",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Torta",
+        "chinese": "蛋糕",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Tramezzino",
+        "chinese": "三明治",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Treno",
+        "chinese": "火车",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ufficio",
+        "chinese": "办公室",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Ufficio postale:",
+        "chinese": "邮局",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Università",
+        "chinese": "大学",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Uomo",
+        "chinese": "男人 (复数: uomini)",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Vacanza",
+        "chinese": "假期",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Valigia:",
+        "chinese": "行李箱",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Venerdì",
+        "chinese": "周五",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Vento",
+        "chinese": "风",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Via",
+        "chinese": "路",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Vino",
+        "chinese": "葡萄酒",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Volta",
+        "chinese": "次，遍",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Zaino",
+        "chinese": "旅行包，背包",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Zia",
+        "chinese": "阿姨，姑姑",
+        "partOfSpeech": "f."
+    },
+    {
+        "italian": "Zio",
+        "chinese": "舅舅，伯伯，叔叔",
+        "partOfSpeech": "m."
+    },
+    {
+        "italian": "Alto:",
+        "chinese": "高的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Americano:",
+        "chinese": "美国的，美国人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Antico:",
+        "chinese": "古老的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Anziano:",
+        "chinese": "年老的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Aperto:",
+        "chinese": "打开的，开放的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Arancione:",
+        "chinese": "橘色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Basso:",
+        "chinese": "矮",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Bello:",
+        "chinese": "好看，漂亮",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Bianco:",
+        "chinese": "白色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Blu:",
+        "chinese": "蓝色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Buono:",
+        "chinese": "好，好吃",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Bravo:",
+        "chinese": "好 (人)，棒",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Brutto:",
+        "chinese": "丑",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Carino:",
+        "chinese": "可爱，好看",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Cinese:",
+        "chinese": "中国人，中国的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Comodo:",
+        "chinese": "舒适的，方便",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Contento:",
+        "chinese": "高兴",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Corto:",
+        "chinese": "短",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Costoso:",
+        "chinese": "贵",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Difficile:",
+        "chinese": "难",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Economico:",
+        "chinese": "便宜",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Facile:",
+        "chinese": "容易，简单",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Famoso:",
+        "chinese": "有名",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Felice:",
+        "chinese": "开心",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Francese:",
+        "chinese": "法国人，法国的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Giallo:",
+        "chinese": "黄色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Giovane:",
+        "chinese": "年轻",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Grande:",
+        "chinese": "大的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Grasso:",
+        "chinese": "胖",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Grigio:",
+        "chinese": "灰色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Importante:",
+        "chinese": "重要",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Inglese:",
+        "chinese": "英国人，英国的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Intelligente:",
+        "chinese": "聪明",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Interessante:",
+        "chinese": "有趣的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Italiano:",
+        "chinese": "意大利的，意大利人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Lento:",
+        "chinese": "慢",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Libero:",
+        "chinese": "空闲的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Liscio:",
+        "chinese": "直(发)",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Lontano:",
+        "chinese": "远",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Luminoso:",
+        "chinese": "明亮的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Lungo:",
+        "chinese": "长",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Magro:",
+        "chinese": "瘦",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Mezzo:",
+        "chinese": "半",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Moderno:",
+        "chinese": "现代的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Molto:",
+        "chinese": "多的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Nero:",
+        "chinese": "黑色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Noioso:",
+        "chinese": "无聊",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Nuovo:",
+        "chinese": "新的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Pericoloso:",
+        "chinese": "危险的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Piccolo:",
+        "chinese": "小的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Pigro:",
+        "chinese": "懒",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Quello:",
+        "chinese": "那个",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Questo:",
+        "chinese": "这个",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Riccio:",
+        "chinese": "卷(发)",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Ricco:",
+        "chinese": "有钱，丰富的，富有的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Rosa:",
+        "chinese": "粉色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Rosso:",
+        "chinese": "红色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Serio:",
+        "chinese": "认真，严重",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Severo:",
+        "chinese": "严格",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Simpatico:",
+        "chinese": "和蔼，讨人喜欢",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Stabile:",
+        "chinese": "稳定的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Straniero:",
+        "chinese": "外国的，外国人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Spagnolo:",
+        "chinese": "西班牙的，西班牙人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Tanto:",
+        "chinese": "多的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Tedesco:",
+        "chinese": "德国的，德国人",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Troppo:",
+        "chinese": "太多的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Tutto:",
+        "chinese": "所有的，全部的，整个，每个",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Vecchio:",
+        "chinese": "老的，旧的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Veloce:",
+        "chinese": "快",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Verde:",
+        "chinese": "绿色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Vicino:",
+        "chinese": "近",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Viola:",
+        "chinese": "紫色的",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Sembrare:",
+        "chinese": "好像，看起来，听起来",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Sorridere:",
+        "chinese": "微笑",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Spedire:",
+        "chinese": "寄",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Spegnere:",
+        "chinese": "关闭 (带电)",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Spendere:",
+        "chinese": "花费",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Stare:",
+        "chinese": "在",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Studiare:",
+        "chinese": "学习",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Succedere:",
+        "chinese": "发生",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Suonare:",
+        "chinese": "弹，拉... + 乐器",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Tornare:",
+        "chinese": "回",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Tradurre:",
+        "chinese": "翻译",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Trovare:",
+        "chinese": "找到",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Usare:",
+        "chinese": "用，使用",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Uscire:",
+        "chinese": "出去，出门",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Vedere:",
+        "chinese": "看，看见",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Venire:",
+        "chinese": "来",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Viaggiare:",
+        "chinese": "旅游，旅行",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Vincere:",
+        "chinese": "赢，赢得",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Visitare:",
+        "chinese": "参观",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Vivere:",
+        "chinese": "生活",
+        "partOfSpeech": null
+    },
+    {
+        "italian": "Volere:",
+        "chinese": "想要",
+        "partOfSpeech": null
+    }
+]
