@@ -3,6 +3,7 @@ let remembered = new Set();
 let currentIndex = 0;
 let wordCounter = 0; // 全局计数器，记录当前显示的单词数量
 let activePool = []; // 活跃复习池，只包含需要循环的单词
+let startX;
 
 // 加载词汇数据
 fetch('vocab.json')
@@ -145,3 +146,48 @@ function loadProgress() {
 }
 
 window.addEventListener('load', loadProgress);
+
+// 将触摸事件监听器绑定到整个文档
+// const flashcardElement = document.getElementById('flashcard');
+document.addEventListener('touchstart', handleTouchStart, false);
+document.addEventListener('touchend', handleTouchEnd, false);
+
+function handleTouchStart(event) {
+  const firstTouch = event.touches[0];
+  startX = firstTouch.clientX;
+}
+
+function handleTouchEnd(event) {
+  const lastTouch = event.changedTouches[0];
+  const endX = lastTouch.clientX;
+  const diffX = startX - endX;
+
+  if (Math.abs(diffX) > 50) { // 检查滑动距离是否足够大
+    if (diffX > 0) {
+      // 左划，显示下一个单词
+      showCard();
+    } else {
+      // 右划，显示上一个单词
+      showPreviousCard();
+    }
+  }
+}
+
+// 显示上一个单词卡片
+function showPreviousCard() {
+  if (vocab.length === 0) return;
+
+  currentIndex = (currentIndex - 1 + vocab.length) % vocab.length; // 确保索引在范围内
+  const card = vocab[currentIndex];
+
+  document.getElementById('word').textContent = card.italian;
+
+  if (card.partOfSpeech) {
+    document.getElementById('meaning').innerHTML = `
+      <small style="font-size: 14px; color: #777;">${card.partOfSpeech}</small><br>${card.chinese}`;
+  } else {
+    document.getElementById('meaning').textContent = card.chinese;
+  }
+
+  speakWord(card.italian);
+}
