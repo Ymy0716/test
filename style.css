@@ -1,5 +1,5 @@
 :root {
-  --button-width: 75px;
+  --button-width: 85px;
   --button-height: 75px;
   --footer-bottom: 20px;
   --button-margin: 0 15px;
@@ -113,7 +113,7 @@ footer span {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-60%, -30%);
   font-size: 16px;
   color: white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
