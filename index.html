@@ -3,36 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>意大利语单词记忆</title>
+  <title>页面切换示例</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <header>
-    <h1>Minnie的小词库</h1>
-    <div id="stats">记住的单词：0/0 (0%)</div>
-  </header>
-  <main>
-    <div id="flashcard">
-      <h2 id="word">加载中...</h2>
-      <p id="meaning"></p>
-    </div>
-    <div id="controls">
-      <button onclick="updateResponse('easy')">记住了</button>
-      <button onclick="updateResponse('medium')">有点难</button>
-      <button onclick="updateResponse('hard')">没记住</button>
-    </div>
-  </main>
+  <!-- 页面1：单词记忆页面 -->
+  <div id="page1" class="page">
+    <header>
+      <h1>Minnie的小词库</h1>
+      <div id="stats">记住的单词：0/0 (0%)</div>
+    </header>
+    <main>
+      <div id="flashcard">
+        <h2 id="word">加载中...</h2>
+        <p id="meaning"></p>
+        <p id="partOfSpeech">词性：未知</p>
+      </div>
+      <div id="controls">
+        <button onclick="updateResponse('easy')">记住了</button>
+        <button onclick="updateResponse('medium')">有点难</button>
+        <button onclick="updateResponse('hard')">没记住</button>
+      </div>
+      <button id="speakButton">再次朗读</button>
+    </main>
+  </div>
+
+  <!-- 页面2：新页面 -->
+  <div id="page2" class="page hidden">
+    <header>
+      <h1>足迹🐾</h1>
+      <div id="review-stats">记住的单词：0/0 (0%)</div>
+    </header>
+    <main>
+      <div id="flashcard-empty">
+        <h2 id="review-word">加载中...</h2>
+        <p id="review-meaning"></p>
+      </div>
+      <div id="controls-review" style="margin-bottom: 20px;">
+        <button style="margin-right: 10px;" onclick="showPreviousReviewWord()">上一个单词</button>
+        <button style="margin-right: 10px;" onclick="showNextReviewWord()">下一个单词</button>
+      </div>
+      <button id="reviewSpeakButton">再次朗读</button>
+    </main>
+  </div>
+
+  <!-- 页面切换按钮，使用自定义图片 -->
   <footer>
-    <button onclick="window.location.href='index.html'">
-      <img src="Button.jpg" alt="当前页面">
-      <span>生词</span>
-    </button>
-    <button onclick="window.location.href='review.html'">
-      <img src="Button.jpg" alt="新页面">
-      <span>复习</span>
-    </button>
+    <div class="button-container">
+      <img id="btn-page1" src="Button.jpg" alt="显示当前页面" onclick="switchPage('page1')" />
+      <span class="button-text">生词</span>
+    </div>
+    <div class="button-container">
+      <img id="btn-page2" src="Button.jpg" alt="显示新页面" onclick="switchPage('page2')" />
+      <span class="button-text">复习</span>
+    </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
