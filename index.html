@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>页面切换示例</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Minnie的小词库</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,6 +14,10 @@
     <header>
       <h1>Minnie的小词库</h1>
       <div id="stats">记住的单词：0/0 (0%)</div>
+      <div class="image-container">
+        <img src="img3.jpg" alt="学习目标" id="goal-image" />
+        <div id="daily-goal">50</div>
+      </div>
     </header>
     <main>
       <div id="flashcard">
@@ -19,12 +25,14 @@
         <p id="meaning"></p>
         <p id="partOfSpeech">词性：未知</p>
       </div>
+      <div id="encouragement" class="hidden"></div>
       <div id="controls">
         <button onclick="updateResponse('easy')">记住了</button>
         <button onclick="updateResponse('medium')">有点难</button>
         <button onclick="updateResponse('hard')">没记住</button>
       </div>
       <button id="speakButton">再次朗读</button>
+      <button id="continueButton">继续学习</button>
     </main>
   </div>
 
