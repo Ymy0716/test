@@ -24,6 +24,10 @@ let reviewIndex = 0; // 当前复习单词索引
 let wordCounter = 0; // 全局计数器，用于记录显示过的单词数量
 let activePool = []; // 活跃复习池，用于循环的单词
 
+// 初始化每日学习目标
+let dailyGoal = 50; // 每日学习目标
+let remainingWords = dailyGoal; // 剩余单词数量
+
 // 加载词汇数据
 fetch('vocab.json')
   .then(response => response.json())
@@ -95,6 +99,78 @@ function updateStats() {
 
   document.getElementById('stats').textContent =
     `记住的单词：${rememberedCount}/${total} (${percentage}%)`;
+  
+  // 更新每日学习目标显示
+  document.getElementById('daily-goal').textContent = remainingWords; // 只显示数字
+}
+
+// 恢复学习进度
+function loadProgress() {
+  try {
+    const savedData = JSON.parse(localStorage.getItem('vocabProgress'));
+    if (savedData) {
+      vocab = savedData;
+      updateStats();
+    }
+  } catch (error) {
+    console.error('加载进度失败:', error);
+  }
+}
+
+// 每日重置逻辑
+function resetDailyGoal() {
+  const now = new Date();
+  const lastReset = localStorage.getItem('lastReset');
+
+  // 检查是否到达零点并重置
+  if (!lastReset || new Date(lastReset).setHours(0, 0, 0, 0) < now.setHours(0, 0, 0, 0)) {
+    remainingWords = dailyGoal; // 重置为每日目标
+    localStorage.setItem('lastReset', now.toISOString()); // 更新最后重置时间
+  }
+}
+
+// 鼓励话语数组
+const encouragementMessages = [
+  "媳妇儿真棒，要注意劳逸结合哦",
+  "世界上最努力的小孩",
+  "谁家小宝宝背单词这么快呀",
+  "媳妇儿辛苦了",
+  "永远在你身边",
+  "加油，我们一起去意大利"
+];
+
+// 调整字体大小以适应背景
+function adjustFontSize(element) {
+  const maxWidth = 250; // 设置最大宽度
+  let fontSize = 24; // 初始字体大小
+
+  element.style.fontSize = fontSize + 'px'; // 设置初始字体大小
+
+  // 循环调整字体大小，直到文本宽度小于最大宽度
+  while (element.offsetWidth > maxWidth && fontSize > 10) { // 最小字体大小为10px
+    fontSize -= 1; // 减小字体大小
+    element.style.fontSize = fontSize + 'px'; // 更新字体大小
+  }
+}
+
+// 显示鼓励话语
+function showEncouragement() {
+  const encouragementDiv = document.getElementById('encouragement');
+  const randomMessage = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)];
+  encouragementDiv.textContent = randomMessage;
+  encouragementDiv.classList.remove('hidden'); // 显示元素
+
+  // 调整字体大小以适应背景
+  adjustFontSize(encouragementDiv);
+
+  // 设置定时器在4秒后淡出
+  setTimeout(() => {
+    encouragementDiv.style.opacity = 0; // 开始淡出
+    setTimeout(() => {
+      encouragementDiv.classList.add('hidden'); // 隐藏元素
+      encouragementDiv.style.opacity = 1; // 重置不透明度
+    }, 1000); // 等待淡出动画完成后再隐藏
+  }, 4000); // 显示4秒
 }
 
 // 用户操作：更新熟练度
@@ -106,6 +182,12 @@ function updateResponse(responseType) {
     remembered.add(card.id); // 添加到已记住集合
     if (!reviewWords.includes(card)) {
       reviewWords.push(card);
+    }
+    if (remainingWords > 0) { // 只有在剩余单词大于0时才减少
+      remainingWords--; // 每次记住单词减少剩余数量
+      if (remainingWords === 0) { // 如果计数器到达0
+        showEncouragement(); // 显示鼓励话语
+      }
     }
   } else if (responseType === 'medium') {
     card.proficiency = 1; // 标记为有点难
@@ -120,19 +202,12 @@ function updateResponse(responseType) {
 
 // 保存熟练度进度到 LocalStorage
 function saveProgress() {
-  localStorage.setItem('vocabProgress', JSON.stringify(vocab));
-}
-
-// 恢复学习进度
-function loadProgress() {
-  const savedData = JSON.parse(localStorage.getItem('vocabProgress'));
-  if (savedData) {
-    vocab = savedData;
-    updateStats();
+  try {
+    localStorage.setItem('vocabProgress', JSON.stringify(vocab));
+  } catch (error) {
+    console.error('保存进度失败:', error);
   }
 }
-
-window.addEventListener('load', loadProgress);
 
 // 显示下一个单词
 function showNextCard() {
@@ -225,3 +300,18 @@ function updateReviewStats(currentIndex) {
   document.getElementById('review-stats').textContent =
     `记住的单词：${currentIndex + 1}/${total} (${percentage}%)`; // 更新为当前单词索引
 }
+
+// 继续学习功能
+function continueLearning() {
+  remainingWords = dailyGoal; // 重置剩余单词数量
+  updateStats(); // 更新显示
+}
+
+// 在页面加载时调用
+window.addEventListener('load', function() {
+  loadProgress(); // 恢复学习进度
+  resetDailyGoal(); // 检查并重置每日目标
+});
+
+// 添加继续学习按钮事件
+document.getElementById('continueButton').addEventListener('click', continueLearning);
