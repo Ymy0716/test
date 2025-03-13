@@ -128,11 +128,13 @@ footer img:hover {
 #goal-image {
   width: 80px; /* 调整图片大小为80px */
   height: auto; /* 保持宽高比 */
+  position: relative; /* 使其可以使用 top 属性 */
+  top: -10px; /* 向上移动10px，您可以根据需要调整这个值 */
 }
 
 #daily-goal {
   position: absolute; /* 绝对定位 */
-  top: 50%; /* 垂直居中 */
+  top: 40%; /* 调整为适合的百分比，您可以根据需要调整这个值 */
   left: 50%; /* 水平居中 */
   transform: translate(-50%, -50%); /* 使元素中心对齐 */
   font-size: 26px; /* 根据需要调整字体大小 */
@@ -162,8 +164,24 @@ footer img:hover {
 
 #stats {
   position: relative; /* 使其可以使用 top 属性 */
-  top: -10px; /* 向上移动10px，您可以根据需要调整这个值 */
+  top: -25px; /* 向上移动30px，您可以根据需要调整这个值 */
   font-size: 18px; /* 根据需要调整字体大小 */
   color: white; /* 字体颜色 */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加阴影以提高可读性 */
+}
+
+#flashcard {
+  margin: 10px auto; /* 调整上边距，向上挪动 */
+  padding: 20px; /* 内边距 */
+  background: white; /* 背景颜色为白色 */
+  border-radius: 10px; /* 圆角边框 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+  max-width: 300px; /* 缩小最大宽度 */
+  width: 90%; /* 确保在小屏幕设备上适配 */
+  position: relative; /* 使其可以使用 top 属性 */
+  top: -10px; /* 向上移动10px，您可以根据需要调整这个值 */
+}
+
+#controls {
+  margin-top: 10px; /* 调整上边距，向上挪动 */
 }
