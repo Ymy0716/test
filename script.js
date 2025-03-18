@@ -51,6 +51,27 @@ function shuffle(array) {
   }
 }
 
+let isSpeaking = false; // 新增标志变量
+let speechEnabled = false; // 新增标志变量，表示语音合成是否启用
+
+// 使用 Web Speech API 朗读单词
+function speakWord(word) {
+  if ('speechSynthesis' in window) {
+    if (isSpeaking || !speechEnabled) return; // 如果正在朗读或语音合成未启用，则不再执行
+
+    isSpeaking = true; // 设置为正在朗读
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'it-IT'; // 设置为意大利语
+
+    // 朗读完成后重置标志
+    utterance.onend = function() {
+      isSpeaking = false; // 朗读完成，允许再次朗读
+    };
+
+    speechSynthesis.speak(utterance);
+  }
+}
+
 // 显示生词卡片
 function showCard() {
   if (vocab.length === 0) return;
@@ -60,7 +81,44 @@ function showCard() {
   document.getElementById('meaning').textContent = card.chinese;
   document.getElementById('partOfSpeech').textContent = `词性：${card.partOfSpeech || '未知'}`;
 
+  // 调用 GPT API 生成例句
+  fetchExampleSentence(card.italian);
+  
+  // 自动朗读单词
   speakWord(card.italian);
+}
+
+// 调用 GPT API 获取例句
+function fetchExampleSentence(word) {
+  const apiUrl = 'https://api.openai.com/v1/chat/completions'; // 替换为正确的 GPT API 端点
+  const requestBody = {
+    model: "gpt-3.5-turbo",
+    messages: [
+      {"role": "system", "content": "你是一个友好的助手，专注于意大利语学习。"},
+      {"role": "user", content: `请为意大利语单词 '${word}' 生成一个例句，并在例句中标记出该单词，同时提供中文翻译。`}
+    ],
+    max_tokens: 100 // 增加最大令牌数以容纳更长的例句
+  };
+
+  fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer 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' // 替换为您的 API 密钥
+    },
+    body: JSON.stringify(requestBody) // 将请求体转换为 JSON 字符串
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('网络响应不是 OK');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const exampleSentence = data.choices[0].message.content.trim(); // 提取生成的例句
+    document.getElementById('example-sentence').textContent = exampleSentence; // 显示例句
+  })
+  .catch(error => console.error('获取例句失败:', error));
 }
 
 // 显示复习页面中的单词
@@ -76,19 +134,11 @@ function showReviewWord() {
     <p>${card.chinese}</p>
     <p>词性：${card.partOfSpeech || '未知'}</p>`;
 
-  speakWord(card.italian); // 自动朗读
+  // 自动朗读复习单词
+  speakWord(card.italian);
 
   // 更新复习页面的统计信息
   updateReviewStats(reviewIndex); // 传递当前索引
-}
-
-// 使用 Web Speech API 朗读单词
-function speakWord(word) {
-  if ('speechSynthesis' in window) {
-    const utterance = new SpeechSynthesisUtterance(word);
-    utterance.lang = 'it-IT'; // 设置为意大利语
-    speechSynthesis.speak(utterance);
-  }
 }
 
 // 更新统计信息
@@ -225,6 +275,11 @@ function showPreviousCard() {
   }
 }
 
+// 添加用户交互事件以启用语音合成
+document.addEventListener('click', function() {
+  speechEnabled = true; // 启用语音合成
+});
+
 // 添加触摸事件监听器
 let startX;
 
@@ -238,10 +293,13 @@ window.addEventListener('touchend', function(event) {
 
   if (Math.abs(diffX) > 30) {
     if (diffX > 0) {
-      showNextCard();
+      showNextCard(); // 向左滑动，显示下一个单词
     } else {
-      showPreviousCard();
+      showPreviousCard(); // 向右滑动，显示上一个单词
     }
+    // 在用户滑动后调用朗读
+    const card = vocab[currentIndex];
+    speakWord(card.italian);
   }
 });
 
@@ -260,6 +318,9 @@ window.addEventListener('touchend', function(event) {
     } else {
       showPreviousReviewWord();
     }
+    // 在用户滑动后调用朗读
+    const card = reviewWords[reviewIndex];
+    speakWord(card.italian);
   }
 });
 
@@ -315,3 +376,35 @@ window.addEventListener('load', function() {
 
 // 添加继续学习按钮事件
 document.getElementById('continueButton').addEventListener('click', continueLearning);
+
+// 调用 GPT API 生成 HTML 登录表单
+function generateLoginForm() {
+  const apiUrl = 'https://api.openai.com/v1/chat/completions'; // 替换为您的 GPT API 端点
+  const requestBody = {
+    model: "gpt-3.5-turbo",
+    messages: [
+      {"role": "system", "content": "你是一个友好的助手。"},
+      {"role": "user", "content": "帮我生成一个简单的HTML登录表单。"}
+    ]
+  };
+
+  fetch(apiUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer YOUR_API_KEY' // 替换为您的 API 密钥
+    },
+    body: JSON.stringify(requestBody) // 将请求体转换为 JSON 字符串
+  })
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('网络响应不是 OK');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const generatedHTML = data.choices[0].message.content; // 提取生成的 HTML
+    document.getElementById('generated-form').innerHTML = generatedHTML; // 显示生成的表单
+  })
+  .catch(error => console.error('获取表单失败:', error));
+}
