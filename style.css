@@ -8,7 +8,7 @@ body {
 
   /* 设置背景图片 */
   background-image: url('img2.jpg'); /* 替换为你的图片名称 */
-  background-size: cover; /* 背景拉伸以覆盖整个屏幕 */
+  background-size: 100% 100%; /* 背景拉伸以覆盖整个屏幕 */
   background-position: center; /* 背景居中显示 */
   background-repeat: no-repeat; /* 防止背景重复 */
   background-attachment: fixed; /* 背景固定 */
@@ -19,11 +19,14 @@ body {
 
 /* 页面特定的背景设置 */
 .page {
-  background-image: url('path/to/your/background.jpg'); /* 确保路径正确 */
-  background-size: cover; /* 背景拉伸以覆盖整个页面 */
+  background-image: url('img2.jpg'); /* 替换为你的图片名称 */
+  background-size: 100% 100%; /* 背景拉伸以覆盖整个屏幕 */
   background-position: center; /* 背景居中显示 */
   background-repeat: no-repeat; /* 防止背景重复 */
-  height: 100vh; /* 确保每个页面的高度为屏幕高度 */
+  background-attachment: fixed; /* 背景固定 */
+  height: 100vh; /* 确保背景高度为屏幕高度 */
+  overflow: hidden; /* 避免滚动条 */
+  background-color: #f2d9dd; /* 替换为您的背景颜色 */
 }
 
 header {
@@ -113,9 +116,8 @@ footer img:hover {
 }
 
 .button-container {
-  display: flex;
-  justify-content: space-around; /* 均分按钮位置 */
-  margin-top: 20px; /* 按钮与页面内容的间距 */
+  position: relative;
+  display: inline-block;
 }
 
 .button-wrapper {
@@ -179,7 +181,7 @@ footer img:hover {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* 添加阴影以提高可读性 */
   opacity: 1; /* 初始不透明度 */
   transition: opacity 1s ease; /* 淡出效果 */
-  
+
   /* 添加背景图片 */
   background-image: url('ticket.png'); /* 替换为您的自定义图片路径 */
   background-size: contain; /* 确保背景图片完整显示 */
@@ -319,9 +321,12 @@ footer img:hover {
 }
 
 #page4 {
-  background-image: url('path/to/your/background.jpg'); /* 确保路径正确 */
-  background-size: cover; /* 背景拉伸以覆盖整个页面 */
+  background-image: url('img2.jpg'); /* 替换为你的图片名称 */
+  background-size: 100% 100%; /* 背景拉伸以覆盖整个屏幕 */
   background-position: center; /* 背景居中显示 */
   background-repeat: no-repeat; /* 防止背景重复 */
-  height: 100vh; /* 确保页面高度为屏幕高度 */
+  background-attachment: fixed; /* 背景固定 */
+  height: 100vh; /* 确保背景高度为屏幕高度 */
+  overflow: hidden; /* 避免滚动条 */
+  background-color: #f2d9dd; /* 替换为您的背景颜色 */
 }
