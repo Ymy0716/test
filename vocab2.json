@@ -1,0 +1,2012 @@
+[
+    {
+        "italian": "noiosa",
+        "chinese": "令人厌烦的，乏味的",
+        "partOfSpeech": "（f.） （m. noioso）",
+        "proficiency": 0
+    },
+    {
+        "italian": "poco",
+        "chinese": "一点儿，少量，不多",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "giocare con ivideogiochi",
+        "chinese": "打游戏，玩电子游戏",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "giocare",
+        "chinese": "玩，打",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "palestra",
+        "chinese": "体操馆，健身房",
+        "partOfSpeech": "la （f）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ballare",
+        "chinese": "跳舞",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "suonare uno strumento",
+        "chinese": "弹奏（演奏）乐器",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "suonare",
+        "chinese": "吹奏，弹奏，演奏（乐器或音乐）",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "videogiochi",
+        "chinese": "电脑游戏",
+        "partOfSpeech": "i (m.) (sing. il videogioco)",
+        "proficiency": 0
+    },
+    {
+        "italian": "strumento",
+        "chinese": "乐器；工具，器具",
+        "partOfSpeech": "lo（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "televisione",
+        "chinese": "电视",
+        "partOfSpeech": "la （f）",
+        "proficiency": 0
+    },
+    {
+        "italian": "teatro",
+        "chinese": "剧院",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "girate per la classe",
+        "chinese": "你们在班级里传阅、分享",
+        "partOfSpeech": "inf.girare",
+        "proficiency": 0
+    },
+    {
+        "italian": "discutete",
+        "chinese": "讨论（直陈式现在时、命令式第二人称复数）",
+        "partOfSpeech": "inf, discutere",
+        "proficiency": 0
+    },
+    {
+        "italian": "alcuni",
+        "chinese": "一些",
+        "partOfSpeech": "(m.) (sing. alcuno)",
+        "proficiency": 0
+    },
+    {
+        "italian": "mi piace",
+        "chinese": "我喜欢",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "non mi piace",
+        "chinese": "我不喜欢",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "interviste",
+        "chinese": "采访，访谈",
+        "partOfSpeech": "le （f.）（sing. 'intervista）",
+        "proficiency": 0
+    },
+    {
+        "italian": "faccio Varie attivita",
+        "chinese": "我从事（做）各类活动",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "varie",
+        "chinese": "各种的，多样的",
+        "partOfSpeech": "（f） （Sing. varia）",
+        "proficiency": 0
+    },
+    {
+        "italian": "pianoforte",
+        "chinese": "钢琴",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "fine settimana",
+        "chinese": "周末",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "bere",
+        "chinese": "喝，饮",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "qualcosa",
+        "chinese": "某事，某物",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "passi",
+        "chinese": "度过，过去（直陈式现在时第二人称单数）",
+        "partOfSpeech": "inf. passare",
+        "proficiency": 0
+    },
+    {
+        "italian": "adesso",
+        "chinese": "现在",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "sono in pensione",
+        "chinese": "我退休了",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "pensione",
+        "chinese": "退休金",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "suono in un gruppo musicale",
+        "chinese": "我参与一个乐队的活动",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "gruppo musicale",
+        "chinese": "乐队",
+        "partOfSpeech": "il (m.)",
+        "proficiency": 0
+    },
+    {
+        "italian": "piscina",
+        "chinese": "游泳池",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "stare in forma",
+        "chinese": "保持状态；保持体型",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "viene",
+        "chinese": "来（直陈式现在时第三人称单数）",
+        "partOfSpeech": "inf. venire",
+        "proficiency": 0
+    },
+    {
+        "italian": "partita a carte",
+        "chinese": "la （f）：纸牌游戏",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "impegnata",
+        "chinese": "繁忙的，不空闲的",
+        "partOfSpeech": "（f） （m.impegnato）",
+        "proficiency": 0
+    },
+    {
+        "italian": "un po' di tempo",
+        "chinese": "一点儿时间",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "forse",
+        "chinese": "也许 *donna, la （f）：妇女，女人",
+        "partOfSpeech": "avv",
+        "proficiency": 0
+    },
+    {
+        "italian": "qualche volta",
+        "chinese": "有时候",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "venerdi sera",
+        "chinese": "星期五晚上",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "accettare",
+        "chinese": "接受",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "rifiutare",
+        "chinese": "拒绝",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "invito",
+        "chinese": "邀请，请束",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "appartamento",
+        "chinese": "单元房，公寓，套房",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "abitazione",
+        "chinese": "住宅，住房",
+        "partOfSpeech": "I’ （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "indirizzo.I’（m.）",
+        "chinese": "住址，地址",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "numeri ordinali",
+        "chinese": "序数词",
+        "partOfSpeech": "i (m.) (sing. il numero ordinale)",
+        "proficiency": 0
+    },
+    {
+        "italian": "verbi modali",
+        "chinese": "情态动词",
+        "partOfSpeech": "i (m.) (sing. il verbo modale)",
+        "proficiency": 0
+    },
+    {
+        "italian": "volere",
+        "chinese": "想，想要",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "preposizioni",
+        "chinese": "前置词",
+        "partOfSpeech": "le （f.） （sing. la preposizione）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mezzi di trasporto urbani",
+        "chinese": "城市公共交通",
+        "partOfSpeech": "i （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "riascoltate",
+        "chinese": "再听，重听（直陈式现在时、命令式第二人称复数）",
+        "partOfSpeech": "inf. riascoltare",
+        "proficiency": 0
+    },
+    {
+        "italian": "violino",
+        "chinese": "小提琴",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "interessi",
+        "chinese": "兴趣，爱好",
+        "partOfSpeech": "gli （m.）（sing. I'interesse）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ama",
+        "chinese": "爱，热爱（直陈式现在时第三人称单数）",
+        "partOfSpeech": "inf. amare",
+        "proficiency": 0
+    },
+    {
+        "italian": "giornalista",
+        "chinese": "记者",
+        "partOfSpeech": "il/la (m. e f.)",
+        "proficiency": 0
+    },
+    {
+        "italian": "aeroporto",
+        "chinese": "飞机场",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "cercate inf. cercare",
+        "chinese": "寻找（命令式第二人称复数）",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "nota",
+        "chinese": "注释",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "pagare",
+        "chinese": "支付，付款",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "vedete",
+        "chinese": "看（直陈式现在时第二人称复数）",
+        "partOfSpeech": "inf. vedere",
+        "proficiency": 0
+    },
+    {
+        "italian": "particolarita",
+        "chinese": "特殊性，特殊之处；特性",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mare",
+        "chinese": "海，大海",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "volentieri",
+        "chinese": "乐意地",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "voglia",
+        "chinese": "愿望，意愿",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "restare",
+        "chinese": "待，留下",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "purtroppo",
+        "chinese": "不幸，可惜",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "ma dai",
+        "chinese": "赶快！拜托！",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "non è che...",
+        "chinese": "不是…而是…",
+        "partOfSpeech": "è che..",
+        "proficiency": 0
+    },
+    {
+        "italian": "pensiamo",
+        "chinese": "想，思考，打算（直陈式现在时第一人称复数）",
+        "partOfSpeech": "inf. pensare",
+        "proficiency": 0
+    },
+    {
+        "italian": "e da tempo",
+        "chinese": "已经好久，已经很长时间",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Scala",
+        "chinese": "米兰斯卡拉歌剧院",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mi dispiace",
+        "chinese": "我很抱歉，我很遗憾",
+        "partOfSpeech": "inf. dispiacere",
+        "proficiency": 0
+    },
+    {
+        "italian": "magari",
+        "chinese": "也许，可能",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "qualcuno",
+        "chinese": "某人",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "d'accordo",
+        "chinese": "同意",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "perche no?",
+        "chinese": "为什么不呢？",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "già",
+        "chinese": "已经",
+        "partOfSpeech": "avv",
+        "proficiency": 0
+    },
+    {
+        "italian": "impegno",
+        "chinese": "事务，事情；约言，承诺",
+        "partOfSpeech": "’I（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ottima",
+        "chinese": "最好的，极好的",
+        "partOfSpeech": "（f.）（m. ottimo）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mostra d'arte",
+        "chinese": "艺术展",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "spese",
+        "chinese": "购物，购买",
+        "partOfSpeech": "le （f.） （sing. la spesa）",
+        "proficiency": 0
+    },
+    {
+        "italian": "entrare",
+        "chinese": "进入",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "mondo",
+        "chinese": "世界",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "natura",
+        "chinese": "大自然",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "pochi",
+        "chinese": "很少的，不多的",
+        "partOfSpeech": "（m.）（sing. poco）",
+        "proficiency": 0
+    },
+    {
+        "italian": "andare a piedi",
+        "chinese": "步行前往",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "aspettare",
+        "chinese": "等待",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "momento",
+        "chinese": "时刻，片刻",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "professore",
+        "chinese": "老师，教授",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "fino a...",
+        "chinese": "直到",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "gita",
+        "chinese": "旅行",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "fare tardi",
+        "chinese": "迟到",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "tardi",
+        "chinese": "迟，晚",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "presto",
+        "chinese": "早，提前",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "girare a sinistra",
+        "chinese": "向左转",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Stati Uniti",
+        "chinese": "美国",
+        "partOfSpeech": "gli (m.)",
+        "proficiency": 0
+    },
+    {
+        "italian": "sempre",
+        "chinese": "一直，总是，经常",
+        "partOfSpeech": "avv",
+        "proficiency": 0
+    },
+    {
+        "italian": "tornare",
+        "chinese": "回，回来；返回",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "tra parentesi",
+        "chinese": "括号里的",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "partecipare",
+        "chinese": "參加，参与",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "gara",
+        "chinese": "比赛，竞赛",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "montagna",
+        "chinese": "山，山脉",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "caselle",
+        "chinese": "方框，小格子",
+        "partOfSpeech": "le （f.）（sing. la casella)",
+        "proficiency": 0
+    },
+    {
+        "italian": "gialle.",
+        "chinese": "黄色的",
+        "partOfSpeech": "（f.）（sing.gialla）",
+        "proficiency": 0
+    },
+    {
+        "italian": "lettrici",
+        "chinese": "女性阅读者，女性读者",
+        "partOfSpeech": "le （f） （sing. la lettrice）",
+        "proficiency": 0
+    },
+    {
+        "italian": "creativi",
+        "chinese": "创造的，创造性的",
+        "partOfSpeech": "（m.）（sing. creativo）",
+        "proficiency": 0
+    },
+    {
+        "italian": "giardinaggio",
+        "chinese": "园艺",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "Paese",
+        "chinese": "国家",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "costano",
+        "chinese": "价格为，花费（直陈式现在时第三人称复数）",
+        "partOfSpeech": "inf. costare",
+        "proficiency": 0
+    },
+    {
+        "italian": "percentuali",
+        "chinese": "百分比，百分率",
+        "partOfSpeech": "le (f.) (sing. la percentuale)",
+        "proficiency": 0
+    },
+    {
+        "italian": "stesse",
+        "chinese": "同样的，一样的",
+        "partOfSpeech": "（f.）（sing. stessa)",
+        "proficiency": 0
+    },
+    {
+        "italian": "per cento",
+        "chinese": "百分之⋯⋯",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "dedica il proprio tempo",
+        "chinese": "他（她）把时间用于",
+        "partOfSpeech": "inf. dedicare",
+        "proficiency": 0
+    },
+    {
+        "italian": "soprattutto",
+        "chinese": "主要地，尤其",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "camminare",
+        "chinese": "行走，走路",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "corre",
+        "chinese": "跑步（直陈式现在时第三人称单数）",
+        "partOfSpeech": "inf. correre",
+        "proficiency": 0
+    },
+    {
+        "italian": "va in bicicletta",
+        "chinese": "骑自行车",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "naviga su internet",
+        "chinese": "上网，浏览网站",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "lettura",
+        "chinese": "读，阅读",
+        "partOfSpeech": "la （f）",
+        "proficiency": 0
+    },
+    {
+        "italian": "abbonamento",
+        "chinese": "季票",
+        "partOfSpeech": "I' （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "comprare",
+        "chinese": "买",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "cellulare",
+        "chinese": "手机",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "convalidare",
+        "chinese": "使（车票） 生效，有效",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "timbrare",
+        "chinese": "打印（车票），打出（车票）",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "corsa",
+        "chinese": "（公共交通）路程；跑",
+        "partOfSpeech": "la（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "convalida",
+        "chinese": "使生效，确认",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "salire",
+        "chinese": "上，上去，上车",
+        "partOfSpeech": "inf.",
+        "proficiency": 0
+    },
+    {
+        "italian": "viaggia",
+        "chinese": "旅行（直陈式现在时第三人 称单数）",
+        "partOfSpeech": "inf.viaggiare",
+        "proficiency": 0
+    },
+    {
+        "italian": "negozio.il （m.）",
+        "chinese": "商店",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "vende",
+        "chinese": "卖，销售（直陈式现在时第三人称单数）",
+        "partOfSpeech": "inf. vendere",
+        "proficiency": 0
+    },
+    {
+        "italian": "sigarette",
+        "chinese": "香烟",
+        "partOfSpeech": "le(f.) (sing. la sigaretta)",
+        "proficiency": 0
+    },
+    {
+        "italian": "oggetti",
+        "chinese": "物品，东西",
+        "partOfSpeech": "gli （m.） （sing. l'oggetto）",
+        "proficiency": 0
+    },
+    {
+        "italian": "sito",
+        "chinese": "地方，地点；网站",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "speciale",
+        "chinese": "特别的,特殊的",
+        "partOfSpeech": "（m. e f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "vaporetto",
+        "chinese": "小汽船，小渡船（威尼斯汽渡船的专用名称）",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "linea",
+        "chinese": "线，线路",
+        "partOfSpeech": "la(f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "testo",
+        "chinese": "课文，文章",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mezzi pubblici",
+        "chinese": "公共交通",
+        "partOfSpeech": "i （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "usati",
+        "chinese": "被使用的",
+        "partOfSpeech": "（m.） （sing. usato）",
+        "proficiency": 0
+    },
+    {
+        "italian": "tram",
+        "chinese": "有轨电车",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "metropolitana",
+        "chinese": "地下铁",
+        "partOfSpeech": "la （f）",
+        "proficiency": 0
+    },
+    {
+        "italian": "passeggeri",
+        "chinese": "乘客，旅客",
+        "partOfSpeech": "i (m.) (sing. il passeggero)",
+        "proficiency": 0
+    },
+    {
+        "italian": "tabaccheria. la （f）",
+        "chinese": "烟草店，杂货铺",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "edicola",
+        "chinese": "书报亭",
+        "partOfSpeech": "I’（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "macchinette automatiche",
+        "chinese": "自动售票机",
+        "partOfSpeech": "le (f.) (sing. macchinetta automatica）",
+        "proficiency": 0
+    },
+    {
+        "italian": "stazioni",
+        "chinese": "火车站，车站",
+        "partOfSpeech": "le （f.） （sing. la stazione）",
+        "proficiency": 0
+    },
+    {
+        "italian": "inoltre",
+        "chinese": "此外",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "orologi",
+        "chinese": "钟表；手表",
+        "partOfSpeech": "gli （m.）（sing. lorologio）",
+        "proficiency": 0
+    },
+    {
+        "italian": "orarl",
+        "chinese": "时间，时刻",
+        "partOfSpeech": "gli（m.）（sing. I’orario）",
+        "proficiency": 0
+    },
+    {
+        "italian": "sono le sette meno venti",
+        "chinese": "差二十分七点（06:40）",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "è mezzogiorno",
+        "chinese": "是中午，中午十二点（12:00）",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "è mezzanotte",
+        "chinese": "是午夜，凌晨零点（00:00）",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "nostri",
+        "chinese": "我们的",
+        "partOfSpeech": "（m.）（sing. nostro）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ascoltatori",
+        "chinese": "听众，收听者",
+        "partOfSpeech": "gli （m.） （sing.I’ascoltatore）",
+        "proficiency": 0
+    },
+    {
+        "italian": "programma",
+        "chinese": "节目",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "siamo in ritardo",
+        "chinese": "我们迟到了",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "meno un quarto",
+        "chinese": "差一刻",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "è mezzanotte e mezzo/a （trenta）",
+        "chinese": "是午夜零点三十分（00:30）",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "disegnate",
+        "chinese": "画，描画（直陈式现在时、命令式第二人称复数）",
+        "partOfSpeech": "inf.disegnare",
+        "proficiency": 0
+    },
+    {
+        "italian": "lancette",
+        "chinese": "指针；时针，分针，秒针",
+        "partOfSpeech": "le（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "aggiungete",
+        "chinese": "增加；补充（直陈式现在时、命令式第二人称复数）",
+        "partOfSpeech": "inf. aggiungere",
+        "proficiency": 0
+    },
+    {
+        "italian": "sbaglia",
+        "chinese": "犯错，出错（直陈式现在时第三人称单数)",
+        "partOfSpeech": "inf.sbagliare",
+        "proficiency": 0
+    },
+    {
+        "italian": "perde",
+        "chinese": "出局，输掉（比赛）（直陈式现在时第三人称单数）",
+        "partOfSpeech": "inf. perdere",
+        "proficiency": 0
+    },
+    {
+        "italian": "agenzia",
+        "chinese": "代理处，办事处；公司",
+        "partOfSpeech": "I’（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mese",
+        "chinese": "月，月份",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "prossimo",
+        "chinese": "下一个的",
+        "partOfSpeech": "（m.） （f. prossima）",
+        "proficiency": 0
+    },
+    {
+        "italian": "lunedì",
+        "chinese": "星期一",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "martedì",
+        "chinese": "星期二",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "mercoledì",
+        "chinese": "星期三",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "giovedì",
+        "chinese": "星期四",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "venerdì",
+        "chinese": "星期五",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "sabato",
+        "chinese": "星期六",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "domenica",
+        "chinese": "星期日",
+        "partOfSpeech": "la （f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "compleanno",
+        "chinese": "生日",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "impossibile",
+        "chinese": "不可能的",
+        "partOfSpeech": "（m. e f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ho molto da fare",
+        "chinese": "我有很多事要做",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Serie",
+        "chinese": "严肃的，严厉的",
+        "partOfSpeech": "（f.） （sing. seria）",
+        "proficiency": 0
+    },
+    {
+        "italian": "finalmente",
+        "chinese": "最终，终于",
+        "partOfSpeech": "avv",
+        "proficiency": 0
+    },
+    {
+        "italian": "agenda",
+        "chinese": "备忘录",
+        "partOfSpeech": "I’（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "Che ne dici di",
+        "chinese": "……你说怎么样?",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "abbastanza",
+        "chinese": "充足地，足够地（用作形容词时词形不变化）",
+        "partOfSpeech": "avv.",
+        "proficiency": 0
+    },
+    {
+        "italian": "raccontare",
+        "chinese": "讲述，叙述",
+        "partOfSpeech": "inf",
+        "proficiency": 0
+    },
+    {
+        "italian": "ottocento",
+        "chinese": "八百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "novecento",
+        "chinese": "九百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "mille",
+        "chinese": "一千",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "millenovecento",
+        "chinese": "一千九百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "duemila",
+        "chinese": "二千",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "primo. （m.）",
+        "chinese": "第一s",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "econdo",
+        "chinese": "第二",
+        "partOfSpeech": "(m.)",
+        "proficiency": 0
+    },
+    {
+        "italian": "terzo",
+        "chinese": "第三",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "quarto",
+        "chinese": "第四",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "quinto",
+        "chinese": "第五",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "sesto",
+        "chinese": "第六",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "settimo",
+        "chinese": "第七",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ottavo",
+        "chinese": "第八",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "nono",
+        "chinese": "第九",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "decimo",
+        "chinese": "第十",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "in poi",
+        "chinese": "从⋯⋯以后",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "undicesimo",
+        "chinese": "第十一",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ideale",
+        "chinese": "理想的",
+        "partOfSpeech": "（m.e f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "presenti",
+        "chinese": "呈现的; 出席的，在场的",
+        "partOfSpeech": "(m. e f.) (sing. presente)",
+        "proficiency": 0
+    },
+    {
+        "italian": "trentuno",
+        "chinese": "三十一",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "quaranta",
+        "chinese": "四十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "sessanta",
+        "chinese": "六十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "settanta",
+        "chinese": "七十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "ottanta",
+        "chinese": "八十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "novanta",
+        "chinese": "九十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "cento",
+        "chinese": "一百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "duecento",
+        "chinese": "二百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "trecento",
+        "chinese": "三百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "quattrocento",
+        "chinese": "四百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "cinquecento",
+        "chinese": "五百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "seicento",
+        "chinese": "六百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "settecento",
+        "chinese": "七百",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "telefonata",
+        "chinese": "（一次）电话；通话",
+        "partOfSpeech": "la（f.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "di più",
+        "chinese": "更多，更加",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "affitto",
+        "chinese": "租，租金",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "in periferia",
+        "chinese": "在郊区",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "stadio",
+        "chinese": "体育场，体育馆",
+        "partOfSpeech": "lo（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "va bene",
+        "chinese": "好的",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "proprio sotto casa",
+        "chinese": "正好在楼下，就在屋外",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "piano",
+        "chinese": "楼层，层",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "comodo",
+        "chinese": "舒适的",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "luminoso",
+        "chinese": "明亮的",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "soggiorno",
+        "chinese": "起居室，客厅",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "camera da letto",
+        "chinese": "卧室",
+        "partOfSpeech": "la(f.)",
+        "proficiency": 0
+    },
+    {
+        "italian": "balcone",
+        "chinese": "阳台",
+        "partOfSpeech": "il（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "euro",
+        "chinese": "欧元",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fortunato",
+        "chinese": "幸运的",
+        "partOfSpeech": "（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ascensore",
+        "chinese": "电梯，升降梯",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "stanze",
+        "chinese": "房间",
+        "partOfSpeech": "le (f.) (sing. la stanza)",
+        "proficiency": 0
+    },
+    {
+        "italian": "ingresso",
+        "chinese": "入口，进口；大门口，入口处",
+        "partOfSpeech": "I’（m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "salotto",
+        "chinese": "客厅；大厅",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "ripostiglio",
+        "chinese": "贮藏室",
+        "partOfSpeech": "il （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "studio",
+        "chinese": "书房；工作室",
+        "partOfSpeech": "lo （m.）",
+        "proficiency": 0
+    },
+    {
+        "italian": "all’aeroporto",
+        "chinese": "在机场",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "a scuola",
+        "chinese": "在学校",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in palestra",
+        "chinese": "在健身房",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "al cinema",
+        "chinese": "在电影院",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "a teatro",
+        "chinese": "在剧院",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in piscina",
+        "chinese": "在游泳馆",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in centro",
+        "chinese": "在市中心",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "andare",
+        "chinese": "去",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "venire",
+        "chinese": "来",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "accendere",
+        "chinese": "开（电器）",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "nuotare",
+        "chinese": "游泳",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "pranzare",
+        "chinese": "吃午饭",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "cenare",
+        "chinese": "吃晚饭",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "videogioco",
+        "chinese": "电子游戏",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "il fine settimana",
+        "chinese": "周末",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "mattina",
+        "chinese": "早上",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "stasera",
+        "chinese": "今晚",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "a quest’ora",
+        "chinese": "在这个时间点",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare la spesa",
+        "chinese": "买菜/买日用品",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare spese =fare shopping",
+        "chinese": "购物",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare colazione",
+        "chinese": "吃早饭",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare una passeggiata",
+        "chinese": "散步",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare la/una foto ",
+        "chinese": "拍照",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare una valigia ",
+        "chinese": "收拾行李",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare la fila=fare la coda",
+        "chinese": "排队",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare il bagno=fare la doccia",
+        "chinese": "洗澡",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare un viaggio",
+        "chinese": "旅游",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fare le vacanze",
+        "chinese": "度假",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "dare",
+        "chinese": "给",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "stare",
+        "chinese": "待在",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "fare",
+        "chinese": "做",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "rimanere",
+        "chinese": "留下",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "dire",
+        "chinese": "说",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "sapere",
+        "chinese": "知道",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "uscire",
+        "chinese": "出门",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "scendere",
+        "chinese": "下",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "spegnere",
+        "chinese": "关（电器）",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "avere voglia di",
+        "chinese": "想要",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "avere bisogno di",
+        "chinese": "需要",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "non è che.....è che",
+        "chinese": "不是...而是...",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "che ne dici di",
+        "chinese": "你认为",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "è da tempo che",
+        "chinese": "已经很久了",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "scegliere",
+        "chinese": "选择",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "sedere",
+        "chinese": "坐",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "tenere",
+        "chinese": "拿着，保持",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "potere",
+        "chinese": "可以",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "dovere",
+        "chinese": "应该",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "pensare",
+        "chinese": "打算",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "invitare",
+        "chinese": "邀请",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "al mare",
+        "chinese": "在海边",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in città",
+        "chinese": "在城市",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in discoteca",
+        "chinese": "在迪厅",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "alla Scala",
+        "chinese": "在斯卡拉剧院",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "al concerto",
+        "chinese": "在音乐会",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "tempo",
+        "chinese": "时间",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "biglietto",
+        "chinese": "票",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "dispiace",
+        "chinese": "遗憾，抱歉",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "altro",
+        "chinese": "其他的",
+        "partOfSpeech": "agg.",
+        "proficiency": 0
+    },
+    {
+        "italian": "idea",
+        "chinese": "主意",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "mostra",
+        "chinese": "展览",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "vacanza",
+        "chinese": "假期",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "fare una gita",
+        "chinese": "远足",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "fino a",
+        "chinese": "直到",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "per favore",
+        "chinese": "请，拜托",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "andare a letto",
+        "chinese": "上床睡觉",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "girare a sinistra/destra",
+        "chinese": "向左/右转",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "esame",
+        "chinese": "考试",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "in ufficio",
+        "chinese": "在办公室",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "in montagna",
+        "chinese": "在山上",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "porre",
+        "chinese": "放置",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "tradurre",
+        "chinese": "翻译",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "trarre",
+        "chinese": "拉，拽，提取",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "cominciare",
+        "chinese": "开始",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "iniziare",
+        "chinese": "开始",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "conoscere",
+        "chinese": "认识",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "visitare",
+        "chinese": "参观",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "ripetere",
+        "chinese": "重复",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "guardare",
+        "chinese": "看",
+        "partOfSpeech": "vt",
+        "proficiency": 0
+    },
+    {
+        "italian": "partire",
+        "chinese": "出发",
+        "partOfSpeech": "vi",
+        "proficiency": 0
+    },
+    {
+        "italian": "vedere",
+        "chinese": "看",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "i mezzi pubblici",
+        "chinese": "公共交通",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "passeggero",
+        "chinese": "乘客",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "macchinetta automatica",
+        "chinese": "自动贩卖机",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "stazione",
+        "chinese": "车站",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "fermata",
+        "chinese": "站点",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "inizio",
+        "chinese": "开始",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "supermercato",
+        "chinese": "超市",
+        "partOfSpeech": "s.m",
+        "proficiency": 0
+    },
+    {
+        "italian": "famiglia",
+        "chinese": "家人",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "bici(cletta)",
+        "chinese": "自行车",
+        "partOfSpeech": "s.f",
+        "proficiency": 0
+    },
+    {
+        "italian": "Appartamento",
+        "chinese": "公寓",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Ingresso",
+        "chinese": "入口",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Cucina",
+        "chinese": "厨房",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Salotto/Soggiorno",
+        "chinese": "客厅",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Bagno",
+        "chinese": "卫生间",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Camera da letto",
+        "chinese": "卧室",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Cameretta",
+        "chinese": "单人间",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Ripostiglio",
+        "chinese": "储藏间",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Studio",
+        "chinese": "书房",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "Balcone",
+        "chinese": "阳台",
+        "partOfSpeech": null,
+        "proficiency": 0
+    },
+    {
+        "italian": "cinquanta",
+        "chinese": "五十",
+        "partOfSpeech": null,
+        "proficiency": 0
+    }
+]
