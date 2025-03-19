@@ -233,10 +233,10 @@ function showEncouragement() {
 }
 
 // 用户操作：更新熟练度
-function updateResponse(level) {
+function updateResponse(responseType) {
   const card = vocab[currentIndex];
 
-  if (level === 'easy') {
+  if (responseType === 'easy') {
     card.proficiency = 2; // 标记为已掌握
     remembered.add(card.id); // 添加到已记住集合
     if (!reviewWords.includes(card)) {
@@ -248,31 +248,15 @@ function updateResponse(level) {
         showEncouragement(); // 显示鼓励话语
       }
     }
-  } else if (level === 'medium') {
+  } else if (responseType === 'medium') {
     card.proficiency = 1; // 标记为有点难
-  } else if (level === 'hard') {
+  } else if (responseType === 'hard') {
     card.proficiency = 0; // 重置为未掌握
   }
 
   saveProgress(); // 保存学习进度
   showNextCard(); // 显示下一个单词
   updateStats(); // 更新统计
-
-  // 假设您有一个单词对象
-  const wordData = {
-    word: card.italian,
-    level: level,
-    // 其他相关数据
-  };
-
-  // 从 localStorage 获取现有数据
-  let savedWords = JSON.parse(localStorage.getItem('savedWords')) || [];
-  
-  // 将新单词数据添加到数组中
-  savedWords.push(wordData);
-  
-  // 保存更新后的数组到 localStorage
-  localStorage.setItem('savedWords', JSON.stringify(savedWords));
 }
 
 // 保存熟练度进度到 LocalStorage
@@ -397,7 +381,6 @@ function continueLearning() {
 window.addEventListener('load', function() {
   loadProgress(); // 恢复学习进度
   resetDailyGoal(); // 检查并重置每日目标
-  loadSavedWords();
 });
 
 // 添加继续学习按钮事件
@@ -436,19 +419,6 @@ let welcomeMessageAdded = false; // 新增标志变量，表示欢迎消息是�
 
 // 发送消息
 document.getElementById('sendButton').addEventListener('click', function() {
-    sendMessage();
-});
-
-// 监听输入框的键盘事件
-document.getElementById('userInput').addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') { // 检查是否按下回车键
-        event.preventDefault(); // 防止默认的换行行为
-        sendMessage(); // 调用发送消息的函数
-    }
-});
-
-// 发送消息的函数
-function sendMessage() {
     const userInput = document.getElementById('userInput').value;
     if (userInput.trim() === '') return; // 如果输入为空则不发送
 
@@ -457,7 +427,7 @@ function sendMessage() {
 
     // 调用 GPT API 获取响应
     fetchResponseFromAI(userInput);
-}
+});
 
 // 添加消息到聊天记录
 function addMessageToChat(sender, message) {
@@ -520,21 +490,3 @@ function fetchResponseFromAI(userInput) {
     })
     .catch(error => console.error('获取响应失败:', error));
 }
-
-function loadSavedWords() {
-    const savedWords = JSON.parse(localStorage.getItem('savedWords')) || [];
-    
-    // 更新界面以显示已保存的单词
-    savedWords.forEach(wordData => {
-        // 这里可以添加代码来更新您的界面
-        console.log(`单词: ${wordData.word}, 记忆状态: ${wordData.level}`);
-    });
-}
-
-function clearSavedWords() {
-    localStorage.removeItem('savedWords');
-    // 这里可以添加代码来更新界面
-}
-
-// 绑定到清除按钮
-document.getElementById('clearButton').onclick = clearSavedWords;
