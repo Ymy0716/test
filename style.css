@@ -8,9 +8,10 @@ body {
 
   /* 设置背景图片 */
   background-image: url('img2.jpg'); /* 替换为你的图片名称 */
-  background-size: 100% 100%; /* 背景拉伸以覆盖整个屏幕 */
+  background-size: cover; /* 背景拉伸以覆盖整个屏幕 */
   background-position: center; /* 背景居中显示 */
   background-repeat: no-repeat; /* 防止背景重复 */
+  background-attachment: fixed; /* 背景固定 */
   height: 100vh; /* 确保背景高度为屏幕高度 */
   overflow: hidden; /* 避免滚动条 */
   background-color: #f2d9dd; /* 替换为您的背景颜色 */
@@ -103,21 +104,38 @@ footer img:hover {
 }
 
 .button-container {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around; /* 均分按钮位置 */
+  margin-top: 20px; /* 按钮与页面内容的间距 */
 }
 
-.button-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; /* 文字颜色 */
-  font-size: 16px; /* 文字大小 */
-  font-weight: bold; /* 文字加粗 */
-  pointer-events: none; /* 确保点击事件传递给图片 */
-  text-align: center; /* 文字居中 */
-  width: 100%; /* 确保文字容器宽度与按钮一致 */
+.button-wrapper {
+  position: relative; /* 使子元素可以绝对定位 */
+  display: inline-block; /* 使容器适应图片大小 */
+  cursor: pointer; /* 鼠标悬停时显示手型 */
+}
+
+.button-wrapper img {
+  width: 70px; /* 按钮图片的宽度 */
+  height: 70px; /* 按钮图片的高度 */
+  border: none; /* 去掉边框 */
+  outline: none; /* 去掉轮廓 */
+}
+
+.button-wrapper span {
+  position: absolute; /* 绝对定位 */
+  top: 50%; /* 垂直居中 */
+  left: 50%; /* 水平居中 */
+  transform: translate(-50%, -50%); /* 使元素中心对齐 */
+  font-size: 14px; /* 根据需要调整字体大小 */
+  color: white; /* 文本颜色 */
+  text-align: center; /* 文本居中对齐 */
+  pointer-events: none; /* 禁用文本的鼠标事件，确保点击区域灵敏 */
+}
+
+.button-wrapper img:hover {
+  transform: scale(1.1); /* 鼠标悬停时放大 */
+  transition: transform 0.2s ease-in-out; /* 平滑放大效果 */
 }
 
 .image-container {
@@ -184,4 +202,109 @@ footer img:hover {
 
 #controls {
   margin-top: 10px; /* 调整上边距，向上挪动 */
+}
+
+.header-title {
+  font-size: 40px; /* 字体大小 */
+  color: white; /* 字体颜色 */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* 文字阴影 */
+  position: relative; /* 使其可以使用 top 属性 */
+  top: -5px; /* 向上移动10px，您可以根据需要调整这个值 */
+}
+
+.expandable {
+    margin: 10px 0;
+}
+
+.expandable-header {
+    cursor: pointer;
+    font-size: 20px; /* 字体大小 */
+    color: white; /* 字体颜色 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 文字阴影 */
+}
+
+.expandable-content {
+    margin-left: 20px; /* 子项缩进 */
+    font-size: 18px; /* 子项字体大小 */
+    color: #f2d9dd; /* 子项颜色 */
+}
+
+.sub-item {
+    cursor: pointer;
+    margin: 5px 0; /* 子项间距 */
+}
+
+.arrow {
+    color: white; /* 设置箭头颜色为白色 */
+    font-size: 20px; /* 根据需要调整字体大小 */
+    margin-right: 5px; /* 箭头与文本之间的间距 */
+}
+
+.chat-history {
+    height: 45vh; /* 设置聊天记录的固定高度 */
+    overflow-y: auto; /* 允许垂直滚动 */
+    background-color: rgba(255, 255, 255, 0.9); /* 背景颜色 */
+    border-radius: 10px; /* 圆角边框 */
+    padding: 10px; /* 内边距 */
+    margin-bottom: 10px; /* 与输入框的间距 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    width: 80%; /* 设置宽度为80% */
+    margin: 0 auto; /* 居中对齐 */
+    margin-top: 0; /* 向上挪动，设置为0以消除上边距 */
+}
+
+.input-container {
+    display: flex; /* 使用 flexbox 布局 */
+    justify-content: space-between; /* 在输入框和按钮之间留出空间 */
+    width: 80%; /* 设置宽度为80% */
+    margin: 0 auto; /* 居中对齐 */
+    margin-top: 5px; /* 向上移动5px并与聊天框保持适当的间距 */
+}
+
+#userInput {
+    flex: 1; /* 输入框占据剩余空间 */
+    padding: 10px; /* 内边距 */
+    border: 1px solid #ccc; /* 边框 */
+    border-radius: 5px; /* 圆角边框 */
+    margin-right: 10px; /* 输入框与按钮之间的间距 */
+}
+
+#sendButton {
+    padding: 10px 20px; /* 按钮内边距 */
+    border: none; /* 去掉边框 */
+    border-radius: 5px; /* 圆角边框 */
+    background-color: #007bff; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+}
+
+#sendButton:hover {
+    background-color: #0056b3; /* 悬停时按钮颜色变化 */
+}
+
+/* 消息样式 */
+.chat-message {
+    margin: 5px 0; /* 消息间距 */
+    padding: 8px; /* 消息内边距 */
+    border-radius: 10px; /* 圆角边框 */
+    max-width: 70%; /* 消息最大宽度 */
+    word-wrap: break-word; /* 允许长单词换行 */
+}
+
+.user-message {
+    background-color: #d1e7dd; /* 用户消息背景颜色（绿色） */
+    align-self: flex-end; /* 用户消息靠右 */
+    margin-left: auto; /* 向右对齐 */
+}
+
+.ai-message {
+    background-color: #f8d7da; /* AI 消息背景颜色（粉色） */
+    align-self: flex-start; /* AI 消息靠左 */
+    margin-right: auto; /* 向左对齐 */
+}
+
+/* 聊天记录容器 */
+.chat-history {
+    display: flex;
+    flex-direction: column; /* 垂直排列消息 */
 }
