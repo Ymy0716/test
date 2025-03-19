@@ -17,6 +17,15 @@ body {
   background-color: #f2d9dd; /* 替换为您的背景颜色 */
 }
 
+/* 页面特定的背景设置 */
+.page {
+  background-image: url('path/to/your/background.jpg'); /* 确保路径正确 */
+  background-size: cover; /* 背景拉伸以覆盖整个页面 */
+  background-position: center; /* 背景居中显示 */
+  background-repeat: no-repeat; /* 防止背景重复 */
+  height: 100vh; /* 确保每个页面的高度为屏幕高度 */
+}
+
 header {
   background: transparent; /* 背景透明 */
   color: white; /* 标题文字为白色 */
@@ -307,4 +316,12 @@ footer img:hover {
 .chat-history {
     display: flex;
     flex-direction: column; /* 垂直排列消息 */
+}
+
+#page4 {
+  background-image: url('path/to/your/background.jpg'); /* 确保路径正确 */
+  background-size: cover; /* 背景拉伸以覆盖整个页面 */
+  background-position: center; /* 背景居中显示 */
+  background-repeat: no-repeat; /* 防止背景重复 */
+  height: 100vh; /* 确保页面高度为屏幕高度 */
 }
