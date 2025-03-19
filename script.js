@@ -92,7 +92,7 @@ function showCard() {
 
   // 调用 GPT API 生成例句
   fetchExampleSentence(card.italian);
-  
+
   // 自动朗读单词
   speakWord(card.italian);
 }
@@ -113,7 +113,7 @@ function fetchExampleSentence(word) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization':'Bearer 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' // 替换为您的 API 密钥
+      'Authorization':'Bearer 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' // 替换为您的 API 密钥
     },
     body: JSON.stringify(requestBody) // 将请求体转换为 JSON 字符串
   })
@@ -158,7 +158,7 @@ function updateStats() {
 
   document.getElementById('stats').textContent =
     `记住的单词：${rememberedCount}/${total} (${percentage}%)`;
-  
+
   // 更新每日学习目标显示
   document.getElementById('daily-goal').textContent = remainingWords; // 只显示数字
 }
@@ -233,10 +233,10 @@ function showEncouragement() {
 }
 
 // 用户操作：更新熟练度
-function updateResponse(responseType) {
+function updateResponse(level) {
   const card = vocab[currentIndex];
 
-  if (responseType === 'easy') {
+  if (level === 'easy') {
     card.proficiency = 2; // 标记为已掌握
     remembered.add(card.id); // 添加到已记住集合
     if (!reviewWords.includes(card)) {
@@ -248,15 +248,31 @@ function updateResponse(responseType) {
         showEncouragement(); // 显示鼓励话语
       }
     }
-  } else if (responseType === 'medium') {
+  } else if (level === 'medium') {
     card.proficiency = 1; // 标记为有点难
-  } else if (responseType === 'hard') {
+  } else if (level === 'hard') {
     card.proficiency = 0; // 重置为未掌握
   }
 
   saveProgress(); // 保存学习进度
   showNextCard(); // 显示下一个单词
   updateStats(); // 更新统计
+
+  // 假设您有一个单词对象
+  const wordData = {
+    word: card.italian,
+    level: level,
+    // 其他相关数据
+  };
+
+  // 从 localStorage 获取现有数据
+  let savedWords = JSON.parse(localStorage.getItem('savedWords')) || [];
+  
+  // 将新单词数据添加到数组中
+  savedWords.push(wordData);
+  
+  // 保存更新后的数组到 localStorage
+  localStorage.setItem('savedWords', JSON.stringify(savedWords));
 }
 
 // 保存熟练度进度到 LocalStorage
@@ -381,6 +397,7 @@ function continueLearning() {
 window.addEventListener('load', function() {
   loadProgress(); // 恢复学习进度
   resetDailyGoal(); // 检查并重置每日目标
+  loadSavedWords();
 });
 
 // 添加继续学习按钮事件
@@ -390,7 +407,7 @@ document.getElementById('continueButton').addEventListener('click', continueLear
 function toggleExpand(section) {
     const content = document.getElementById(section);
     const arrow = document.getElementById(`arrow-${section}`);
-    
+
     if (content.classList.contains('hidden')) {
         content.classList.remove('hidden');
         arrow.textContent = '▼'; // 改变箭头方向为向下
@@ -419,6 +436,19 @@ let welcomeMessageAdded = false; // 新增标志变量，表示欢迎消息是�
 
 // 发送消息
 document.getElementById('sendButton').addEventListener('click', function() {
+    sendMessage();
+});
+
+// 监听输入框的键盘事件
+document.getElementById('userInput').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') { // 检查是否按下回车键
+        event.preventDefault(); // 防止默认的换行行为
+        sendMessage(); // 调用发送消息的函数
+    }
+});
+
+// 发送消息的函数
+function sendMessage() {
     const userInput = document.getElementById('userInput').value;
     if (userInput.trim() === '') return; // 如果输入为空则不发送
 
@@ -427,7 +457,7 @@ document.getElementById('sendButton').addEventListener('click', function() {
 
     // 调用 GPT API 获取响应
     fetchResponseFromAI(userInput);
-});
+}
 
 // 添加消息到聊天记录
 function addMessageToChat(sender, message) {
@@ -474,7 +504,7 @@ function fetchResponseFromAI(userInput) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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' // 替换为您的 API 密钥
+            'Authorization': 'Bearer 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' // 替换为您的 API 密钥
         },
         body: JSON.stringify(requestBody)
     })
@@ -490,3 +520,21 @@ function fetchResponseFromAI(userInput) {
     })
     .catch(error => console.error('获取响应失败:', error));
 }
+
+function loadSavedWords() {
+    const savedWords = JSON.parse(localStorage.getItem('savedWords')) || [];
+    
+    // 更新界面以显示已保存的单词
+    savedWords.forEach(wordData => {
+        // 这里可以添加代码来更新您的界面
+        console.log(`单词: ${wordData.word}, 记忆状态: ${wordData.level}`);
+    });
+}
+
+function clearSavedWords() {
+    localStorage.removeItem('savedWords');
+    // 这里可以添加代码来更新界面
+}
+
+// 绑定到清除按钮
+document.getElementById('clearButton').onclick = clearSavedWords;
